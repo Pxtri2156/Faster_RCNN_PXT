@@ -10,4 +10,4 @@ PATH_TEST_IMG = '/content/za_traffic_2020/traffic_public_test/images'
 NAME_TRAIN = 'data_train'
 NAME_TEST = "data_test"
 NAME_VALID = 'data_valid'
-
+TIME = " "
