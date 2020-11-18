@@ -1,1 +1,1 @@
-Khởi tạo
+Khởi tạojj
