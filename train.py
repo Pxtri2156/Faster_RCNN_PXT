@@ -35,10 +35,8 @@ from config import  TRAFFIC_SIGN_ANNOT_TRAIN_JSON, TRAFFIC_SIGN_ANNOT_VALID_JSON
 # using now() to get current time  
 current_time = datetime.datetime.now() 
 
-name_train = 'train_' + str(current_time.year) + '_' +  str(current_time.month) + '_' + str(current_time.day) + '_' + str(current_time.hour) + '_' + str(current_time.minute)  + '_' + str(current_time.second) 
-name_valid = 'valid_' + str(current_time.year) + '_' +  str(current_time.month) + '_' + str(current_time.day) + '_' + str(current_time.hour) + '_' + str(current_time.minute) + '_' + str(current_time.second)  
-register_coco_instances(name_train, {}, TRAFFIC_SIGN_ANNOT_TRAIN_JSON, PATH_TRAIN_IMG)
-register_coco_instances(name_valid, {}, TRAFFIC_SIGN_ANNOT_VALID_JSON, PATH_TRAIN_IMG)
+# name_train = 'train_' + str(current_time.year) + '_' +  str(current_time.month) + '_' + str(current_time.day) + '_' + str(current_time.hour) + '_' + str(current_time.minute)  + '_' + str(current_time.second) 
+# name_valid = 'valid_' + str(current_time.year) + '_' +  str(current_time.month) + '_' + str(current_time.day) + '_' + str(current_time.hour) + '_' + str(current_time.minute) + '_' + str(current_time.second)  
 
 class CocoTrainer(DefaultTrainer):
 
