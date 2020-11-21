@@ -24,7 +24,7 @@ def main(args):
   visualize(args['mode'], args['No_img'])
 
 if __name__ == "__main__" :
-  parser = argparse.ArgumentParser(description='Process a croped image and produce GOOD or NOT GOOD result.')
+  parser = argparse.ArgumentParser(description='Config visualize train data')
   parser.add_argument('--mode', '-m', required=True, 
                       type=bool, help='If you want visualize train data  mode = 1, otherwise mode = 2')
   parser.add_argument('--No_img', '-n', required=True, 
